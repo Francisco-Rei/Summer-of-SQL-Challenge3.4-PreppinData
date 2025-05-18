@@ -87,6 +87,8 @@ ethnicity
 FROM table_pivot
 WHERE rn = 1
 ````
+Sample
+
 | ID     | JOINING_DATE | ACCOUNT_TYPE | DATE_OF_BIRTH | ETHNICITY |
 |--------|--------------|--------------|----------------|-----------|
 | 467374 | 2023-04-24   | Gold         | 2006-01-03     | Black     |
