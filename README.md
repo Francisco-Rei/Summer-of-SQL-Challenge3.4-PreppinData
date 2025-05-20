@@ -5,7 +5,7 @@ Skills tested in challenge 3.4:
 - Common Table Expressions (CTEs)
 - Union All
 - Pivot
-- -Using ROW_NUMBER for deduplication
+- Use ROW_NUMBER for deduplication
 
 
 ## Challenge: Preppin Data 2023 Week 3.4
