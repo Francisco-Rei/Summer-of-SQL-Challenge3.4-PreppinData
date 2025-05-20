@@ -54,7 +54,9 @@ UNION ALL
 SELECT *, 'pd2023_wk04_december' as tablename FROM pd2023_wk04_december
 )
 
-, transformations AS (
+,
+
+transformations AS (
 SELECT 
 id,
 date_from_parts(2023,DATE_PART('month',DATE(SPLIT_PART(tablename,'_',3),'MMMM')),joining_day) as joining_date,
@@ -62,7 +64,9 @@ demographic,
 value
 FROM uniontables
 )
-,table_pivot AS (
+,
+
+table_pivot AS (
 SELECT 
 id,
 joining_date,
